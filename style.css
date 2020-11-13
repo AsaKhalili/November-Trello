@@ -1,0 +1,91 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-rows: auto 2fr 6fr;
+}
+
+.fas{
+  color: white;
+}
+
+.header{
+  background-color: #225c8e;
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr 1.5fr;
+}
+
+.nav-bar{
+  background-color: blue;
+}
+
+.content{
+  background-color: blueviolet;
+}
+
+.boards-btn{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.boards-btn button{
+  background-color: #80c2e8;
+  border: none;
+  border-radius: 3px;
+}
+
+#board-img{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#board-link{
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.search-bar{
+  margin-top: 9px;
+}
+
+.search-bar input{    
+  display: inline-block;
+  background-color: #80c2e8;
+  width: 200px;
+  height: 25px;
+  border: none;
+  border-radius: 4px;
+}
+
+.fa-search{
+  display: inline-block;
+  margin: -22px;
+}
+
+#logo-img{
+  width: 70px;
+  height: 25px;
+  margin: 3px 450px;
+}
+
+.icons-right{
+  margin-top: 5px;
+}
+
+.fa-plus, .fa-info, .fa-bell, .fa-user{
+  margin: 0px 2px;
+  background-color: #80c2e8;
+  width: 20px;
+  height: 18px;
+  padding-left: 5px;
+  padding-top: 3px;
+  border: none;
+  border-radius: 3px;
+}
+
